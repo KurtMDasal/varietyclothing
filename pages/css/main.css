@@ -39,6 +39,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 /*//////////////////////////////////////////////////////////////////
 [ FONT ]*/
 
+
 @font-face {
   font-family: Poppins-Regular;
   src: url('../fonts/Poppins/Poppins-Regular.ttf'); 
@@ -493,7 +494,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 
 
 /*---------------------------------------------*/
-.icon-header-noti::after {
+/*.icon-header-noti::after {
   content: attr(data-notify);
   font-family: Poppins-Regular;
   font-size: 12px;
@@ -510,7 +511,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   padding: 0 3px;
   background-color: #f74877;
 }
-
+*/
 /*---------------------------------------------*/
 .wrap-header-mobile .wrap-icon-header {
   flex-grow: unset;
@@ -710,6 +711,12 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 
 }
 
+
+    .hamburger-box .hamburger-inner,
+    .hamburger-box .hamburger-inner::before,
+    .hamburger-box .hamburger-inner::after {
+        background-color: #f6f6f6
+    }
 
 .hamburger:hover {
   opacity: 1;
