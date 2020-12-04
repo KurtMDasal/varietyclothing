@@ -1,0 +1,7 @@
+User-Agent: *
+Allow: /about
+Disallow: /contact
+Disallow: /images/
+
+Sitemap: sitemap.xml
+
