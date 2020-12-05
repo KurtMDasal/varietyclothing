@@ -3,5 +3,5 @@ Allow: /about
 Disallow: /contact
 Disallow: /images/
 
-Sitemap: /sitemap.xml
+Sitemap: https://variety.clothing/sitemap.xml
 
